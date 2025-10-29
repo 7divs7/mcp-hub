@@ -1,0 +1,37 @@
+[project]
+name = "mcp-hub"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "divyani", email = "divyani.panda@gmail.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "accelerate>=1.10.1",
+    "anthropic>=0.68.0",
+    "fastapi>=0.116.1",
+    "fastmcp>=2.12.2",
+    "kernels>=0.10.0",
+    "langchain>=0.3.27",
+    "langchain-huggingface>=0.3.1",
+    "langchain-openai>=0.3.33",
+    "langgraph>=0.6.7",
+    "mcp>=1.13.1",
+    "mistral-inference>=1.6.0",
+    "pydantic>=2.11.7",
+    "pyyaml>=6.0.2",
+    "smolagents[litellm]>=1.21.3",
+    "streamlit>=1.49.1",
+    "tokenizer>=3.5.1",
+    "torch>=2.8.0",
+    "transformers>=4.56.1",
+    "uvicorn>=0.35.0",
+]
+
+[project.scripts]
+mcp-hub = "mcp_hub:main"
+
+[build-system]
+requires = ["uv_build>=0.8.14,<0.9.0"]
+build-backend = "uv_build"

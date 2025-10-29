@@ -1,0 +1,34 @@
+# config/models_config.yaml
+
+openai:
+  gpt-4o-mini:
+    model_id: "gpt-4o-mini"
+    base_url: "https://api.openai.com/v1"
+    api_env: "OPENAI_API_KEY"
+
+  gpt-4-turbo:
+    model_id: "gpt-4-turbo"
+    base_url: "https://api.openai.com/v1"
+    api_env: "OPENAI_API_KEY"
+
+huggingface:
+  deepseek-r1-novita:
+    model_id: "deepseek-ai/DeepSeek-R1:novita"
+    base_url: "https://router.huggingface.co/v1"
+    api_env: "HF_TOKEN"
+
+  gpt-oss-120b:
+    model_id: "openai/gpt-oss-120b:cerebras"
+    base_url: "https://router.huggingface.co/v1"
+    api_env: "HF_TOKEN"
+
+databricks:
+  db-gpt-mini:
+    model_id: "databricks-meta-llama-3-1-70b-instruct"
+    base_url: "https://adb-2478587080594690.10.azuredatabricks.net/serving-endpoints/databricks-meta-llama-3-1-70b-instruct/invocations"
+    api_env: "DATABRICKS_TOKEN"
+
+  db-mixtral:
+    model_id: "databricks-mixtral-8x7b-instruct"
+    base_url: "https://adb-2478587080594690.10.azuredatabricks.net/serving-endpoints/databricks-mixtral-8x7b-instruct/invocations"
+    api_env: "DATABRICKS_TOKEN"

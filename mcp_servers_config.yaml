@@ -1,0 +1,10 @@
+servers:
+- name: mcp_chatmemory
+  command: "uv"
+  args: ["run", "python", "mcp_chatmemory.py"]
+  cwd: "C:/Projects/mcp-hub/mcp_servers"
+
+- name: mcp_todayinfo
+  command: "uv"
+  args: ["run", "python", "mcp_todayinfo.py"]
+  cwd: "C:/Projects/mcp-hub/mcp_servers"
