@@ -108,7 +108,7 @@ It currently supports single-tool calls, with plans to expand toward richer, mor
 ---
 
 ### Screenshot
-![Alt Text](path_or_url_to_image)
+![Alt Text](assets/screenshot.png)
 
 ---
 
@@ -117,3 +117,4 @@ It currently supports single-tool calls, with plans to expand toward richer, mor
 _Data Scientist \| Generative AI Engineer_  
 
 [![LinkedIn-profile](https://img.shields.io/badge/LinkedIn-Profile-teal.svg)](https://www.linkedin.com/in/divyani-panda-5a8345194/)
+
