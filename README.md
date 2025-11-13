@@ -24,7 +24,7 @@ You can test your MCP servers just by uploading a configuration file and interac
 
 - **Model-Agnostic Design** – Plug in any supported LLM (OpenAI, Anthropic, Hugging Face, etc.) without code changes.  
 
-- **Config-Driven Setup** – Just upload your `mcp_server_config.yaml` to instantly test your MCP servers. If you want to try a model not provided in the current setup, you can update `models_config.yaml`.  
+- **Config-Driven Setup** – Just upload your `mcp_servers_config.yaml` to instantly test your MCP servers. If you want to try a model not provided in the current setup, you can update `models_config.yaml`.  
 
 - **Tool Invocation** – Call tools like memory, weather, and date handlers with a single message.  
 
@@ -75,7 +75,7 @@ uv run streamlit run frontend.py
 
 ## MCP Server Config  
 
-You can register and test any MCP server by adding it to `mcp_server_config.yaml` in the root directory.
+You can register and test any MCP server by adding it to `mcp_servers_config.yaml` in the root directory.
 
 ### Example Config
 
@@ -117,5 +117,6 @@ It currently supports single-tool calls, with plans to expand toward richer, mor
 _Data Scientist \| Generative AI Engineer_  
 
 [![LinkedIn-profile](https://img.shields.io/badge/LinkedIn-Profile-teal.svg)](https://www.linkedin.com/in/divyani-panda-5a8345194/)
+
 
 
